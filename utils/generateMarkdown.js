@@ -16,9 +16,9 @@ function renderLicenseLink(license) {
   } else if (license === 'MIT'){
     return `[${license}](https://opensource.org/licenses/MIT)`
   } else if (license === 'GPL'){
-    return `[${license}]()`
+    return `[${license}](https://www.gnu.org/licenses/gpl-3.0.en.html)`
   } else if (license === 'Apache'){
-    return `[${license}]()`
+    return `[${license}](https://www.apache.org/licenses/LICENSE-2.0)`
   }
 }
 
@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return `
   ${renderLicenseBadge(license)}
-  
+
   ${renderLicenseLink(license)}
   `
 }
@@ -39,8 +39,23 @@ function generateMarkdown(data) {
 # Description
 ${data.projectDescription}
 
+# Install
+${data.projectInstall}
+
+#Usage
+${data.projectUsage}
+
 # License
 ${renderLicenseSection(data.license)}
+
+#Contribution
+${data.confirmAddContribution}
+
+#Test 
+${data.projectTest}
+
+
+
 `;
 }
 

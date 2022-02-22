@@ -30,57 +30,57 @@ const questions = [
       }
     }
   },
-  // {
-  //   type: 'input',
-  //   name: 'projectInstall',
-  //   message: 'How do you install your project? (Required)',
-  //   validate: installInput => {
-  //     if (installInput) {
-  //       return true;
-  //     } else {
-  //       console.log('Please explain how to install.');
-  //       return false;
-  //     }
-  //   }
-  // },
-  // {
-  //   type: 'input',
-  //   name: 'projectUsage',
-  //   message: 'How do you use your project? (Required)',
-  //   validate: usageInput => {
-  //     if (usageInput) {
-  //       return true;
-  //     } else {
-  //       console.log('Please explain application use.');
-  //       return false;
-  //     }
-  //   }
-  // },
+  {
+    type: 'input',
+    name: 'projectInstall',
+    message: 'How do you install your project? (Required)',
+    validate: installInput => {
+      if (installInput) {
+        return true;
+      } else {
+        console.log('Please explain how to install.');
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'projectUsage',
+    message: 'How do you use your project? (Required)',
+    validate: usageInput => {
+      if (usageInput) {
+        return true;
+      } else {
+        console.log('Please explain application use.');
+        return false;
+      }
+    }
+  },
   {
     type: 'list',
     name: 'license',
     message: 'What license would you like to use for your project?',
     choices: ['MIT', 'GPL', 'Apache', 'N/A']
   },
-  // {
-  //   type: 'confirm',
-  //   name: 'confirmAddContributer',
-  //   message: 'Would you like to add a contributer to this project?',
-  //   default: false
-  // },
-  // {
-  //   type: 'input',
-  //   name: 'projectTest',
-  //   message: 'Would you like to add a test? (Required)',
-  //   validate: testInput => {
-  //     if (testInput) {
-  //       return true;
-  //     } else {
-  //       console.log('Please explain test.');
-  //       return false;
-  //     }
-  //   }
-  // },
+  {
+    type: 'confirm',
+    name: 'confirmAddContributer',
+    message: 'Would you like to add a contributer to this project?',
+    default: false
+  },
+  {
+    type: 'input',
+    name: 'projectTest',
+    message: 'Would you like to add a test? (Required)',
+    validate: testInput => {
+      if (testInput) {
+        return true;
+      } else {
+        console.log('Please explain test.');
+        return false;
+      }
+    }
+  },
 ];
 
 // TODO: Create a function to write README file
