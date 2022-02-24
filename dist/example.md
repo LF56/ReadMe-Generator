@@ -37,6 +37,3 @@ No
 Email me for contact/questions: leah.fox7@gmail.com
 
 Connect with me on GitHub: LF56 (https://github.com/LF56)
-
-
-
