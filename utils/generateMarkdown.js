@@ -44,7 +44,7 @@ function generateMarkdown(data) {
   - [License](#License)
   - [Contribution](#Contribution)
   - [Tests](#Tests)
-  - [Questions](#questions)
+  - [Questions](#Questions)
 
 # Description
 ${data.projectDescription}
@@ -63,6 +63,12 @@ ${data.confirmAddContribution}
 
 # Test 
 ${data.projectTest}
+
+# Questions
+
+Email me for contact/questions: ${data.questions}
+
+Connect with me on GitHub: ${data.githubUser} (https://github.com/${data.githubUser})
 
 
 
