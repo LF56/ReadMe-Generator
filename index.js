@@ -64,8 +64,8 @@ const questions = [
   },
   {
     type: 'confirm',
-    name: 'confirmAddContributer',
-    message: 'Would you like to add a contributer to this project?',
+    name: 'confirmAddContribution',
+    message: 'Would you like to add a contribution to this project?',
     default: false
   },
   {

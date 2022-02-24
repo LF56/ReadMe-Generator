@@ -1,10 +1,23 @@
-# readme generator
+# Readme Generator
+
+
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installation](#Install)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contribution](#Contribution)
+  - [Tests](#Tests)
+  - [Questions](#questions)
 
 # Description
-generates a professional readme file
+this application will allow you to create a readme file for the application you have created and pushed to github
 
 # Install
-through the node js command 
+npm init and inquirer
+
+# Usage
+You can use this application through the command line or terminal
 
 # License
 
@@ -12,3 +25,12 @@ through the node js command
 
   [MIT](https://opensource.org/licenses/MIT)
   
+
+# Contribution
+false
+
+# Test 
+N
+
+
+
